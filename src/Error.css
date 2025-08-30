@@ -1,0 +1,7 @@
+.error{
+    position : absolute;
+    z-index: 2000;
+    height : 10vh;
+    width : 100vw;
+    background-image : linear-gradient(to right, rgb(223, 100, 100), rgb(255, 153, 153));
+}

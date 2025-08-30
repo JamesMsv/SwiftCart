@@ -1,0 +1,44 @@
+.shop-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    height: 15vh;
+}
+.logo{
+    background-image: url('./images/Logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 10vh;
+}
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ecb4b4;
+    border-radius: 5px;
+    height: 7vh;
+}
+.search input {
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    width: 100%;
+}
+.search input:focus{
+    border-color: #66a7e9;
+}
+.fa,.fas{
+    color: #9c2222;
+}
+.productTabList{
+    border-radius: 5px;
+    background-color: #ecdede;
+}
+.productTabList-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+    aspect-ratio: 1/1;
+}
